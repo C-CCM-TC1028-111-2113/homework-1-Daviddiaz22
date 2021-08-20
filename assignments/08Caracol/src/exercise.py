@@ -1,10 +1,12 @@
 def main():
     #escribe tu código abajo de esta línea
-    minu= float(input('Dame los minutos: '))
+    minutos = float(input('Dame los minutos: '))
 
-    recorrido = minu* 34.2
+    recorrido = (minutos * ((5.7 * 60 )/10))
 
-    print('Centímentros recorridos: ' + str(recorrido))
+    number = round(recorrido,1)
+
+    print('Centímentros recorridos: ' + str(number))
 
 if __name__ == '__main__':
     main()
